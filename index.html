@@ -3,11 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
     <link href="css/grid.css" rel="stylesheet">
     <title>Responsive Grid</title>
 </head>
-<body>
-    
-    <script src="js/main.js"></script>
-</body>
+    <body>
+        <h1 class="hidden">Welcome to Responsive Grid website</h1>
+
+        <header class="grid-con">
+            <h2 class="hidden">Main Navigation</h2>
+            <div id="logo" class="box">Logo</div>
+            <div id="menu" class="box">Nav</div>
+        </header>
+
+        <section id="hero" class="grid-con">
+            <h2 class="hidden">Main image</h2>
+            <div class="box">Hero image</div>
+        </section>
+
+        <section id="products">
+            <h2 class="hidden">Products section</h2>
+            <div class="grid-con">
+                <div class="box">Product 1</div>
+                <div class="box">Product 2</div>
+            </div>
+        </section>
+
+        <section id="services" class="grid-con">
+            <h2 class="hidden">Services section</h2>
+            <div class="box">Service 1</div>
+            <div class="box">Service 2</div>
+            <div class="box">Service 3</div>
+            <div class="box">Service 4</div>
+            <div class="box">Service 5</div>
+            <div class="box">Service 6</div>
+        </section>
+
+        <footer id="footer" class="grid-con">
+            <h2 class="hidden">Footer Section</h2>
+            <div class="box">Footer</div>
+        </footer>
+
+        <script src="js/main.js"></script>   
+    </body>
 </html>
